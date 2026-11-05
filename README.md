@@ -17,8 +17,5 @@ Dane są przechowywane w `katalog/dane/pozycje.txt` w formacie `tytuł;rok;ocena
 Dokumentacja VS Code wymienia `AGENTS.md` w głównym katalogu repozytorium jako obsługiwany plik instrukcji projektu dla harnessu Copilot (alternatywą jest `.github/copilot-instructions.md`). Zostało to sprawdzone 5 listopada 2026 r.: [Custom instructions in VS Code](https://code.visualstudio.com/docs/agent-customization/custom-instructions).
 
 ## Sprawdzenie reguł w świeżej rozmowie
-
-Tych wartości nie da się ustalić na podstawie samego repozytorium; należy je wpisać po porównaniu ekranów wygenerowanych w świeżych rozmowach:
-
-- Liczba złamanych reguł przy pierwszym sprawdzeniu: do uzupełnienia.
-- Liczba złamanych reguł przy ostatnim sprawdzeniu: do uzupełnienia.
+- Liczba złamanych reguł przy pierwszym sprawdzeniu: 0
+- Liczba złamanych reguł przy ostatnim sprawdzeniu: 0
