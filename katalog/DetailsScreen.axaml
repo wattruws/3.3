@@ -1,0 +1,11 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="katalog.DetailsScreen">
+    <StackPanel Margin="24" Spacing="16">
+        <TextBlock Text="Szczegóły pozycji" FontSize="28" FontWeight="Bold" />
+        <TextBlock Name="TitleText" FontSize="22" />
+        <TextBlock Name="YearText" FontSize="18" />
+        <TextBlock Name="RatingText" FontSize="18" />
+        <Button HorizontalAlignment="Left" Click="OnBackClick">Wróć do listy</Button>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,18 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="katalog.ListScreen">
+    <Grid RowDefinitions="Auto,*,Auto,Auto" Margin="24" RowSpacing="12">
+        <TextBlock Grid.Row="0"
+                   Text="Moja kolekcja"
+                   FontSize="28"
+                   FontWeight="Bold" />
+        <ScrollViewer Grid.Row="1">
+            <StackPanel Name="ItemsPanel" Spacing="8" />
+        </ScrollViewer>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="8">
+            <Button Click="OnAddClick">Dodaj pozycję</Button>
+            <Button Click="OnCountClick">Policz</Button>
+        </StackPanel>
+        <TextBlock Grid.Row="3" Name="CountText" />
+    </Grid>
+</UserControl>
